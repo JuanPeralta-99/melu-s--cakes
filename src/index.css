@@ -1,13 +1,114 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  margin-left: 10px;
+}
+
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #05b4ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21aaff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li > div {
+  display: flex;
+  gap: 10px;
+}
+
+.confirmed {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.not-confirmed {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+@media (min-width: 600px) {
+  li {
+    flex-direction: row;
+  }
+
+  form {
+    display: flex; /* Add this line */
+    flex-direction: column; /* Add this line */
+    align-items: flex-start; /* Add this line */
+  }
+
+  label, input, select, button {
+    width: 100%; /* Add this line */
+    margin: 5px 0; /* Add this line */
+  }
+
+  input, select, button {
+    width: calc(100% - 20px); /* Add this line */
+  }
+
+  button {
+    align-self: flex-end; /* Add this line */
+  }
+}
+
+@media (max-width: 599px) {
+  .App {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  input, select {
+    width: calc(100% - 12px);
+    padding: 5px;
+  }
+
+  li {
+    margin: 5px 0;
+    padding: 10px;
+  }
 }
