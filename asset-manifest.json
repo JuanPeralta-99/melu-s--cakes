@@ -1,14 +1,13 @@
 {
   "files": {
-    "main.css": "/melu-s--cakes/static/css/main.93f70af5.css",
-    "main.js": "/melu-s--cakes/static/js/main.ce905d06.js",
-    "static/media/Pastelitos.jpg": "/melu-s--cakes/static/media/Pastelitos.f289374eb5c245bb1eed.jpg",
+    "main.css": "/melu-s--cakes/static/css/main.667497bf.css",
+    "main.js": "/melu-s--cakes/static/js/main.25031c3f.js",
     "index.html": "/melu-s--cakes/index.html",
-    "main.93f70af5.css.map": "/melu-s--cakes/static/css/main.93f70af5.css.map",
-    "main.ce905d06.js.map": "/melu-s--cakes/static/js/main.ce905d06.js.map"
+    "main.667497bf.css.map": "/melu-s--cakes/static/css/main.667497bf.css.map",
+    "main.25031c3f.js.map": "/melu-s--cakes/static/js/main.25031c3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.93f70af5.css",
-    "static/js/main.ce905d06.js"
+    "static/css/main.667497bf.css",
+    "static/js/main.25031c3f.js"
   ]
 }
